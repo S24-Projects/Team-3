@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.custom-button {
+  background-color: #10b981;
+}
+
+.fintech-color {
+  background-color: #00837e;
+}
+
+.custom-button:hover {
+  background-color: #079b6e; /* You can adjust the hover color as needed */
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* This will make the container fill the entire viewport height */
+}
