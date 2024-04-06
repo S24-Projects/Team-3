@@ -69,3 +69,25 @@
   margin-right: 100px; /* Set the distance from the right */
   height: 75vh; /* Adjust this value as needed */
 }
+
+.to-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s;
+}
+
+.to-top-btn:hover {
+  opacity: 0.8;
+}
