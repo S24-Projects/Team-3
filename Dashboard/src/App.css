@@ -55,3 +55,17 @@
   align-items: center;
   height: 100vh; /* This will make the container fill the entire viewport height */
 }
+
+.left-container {
+  margin-left: 110px; /* Set the distance from the left */
+  margin-top: 450px;
+  margin-right: auto; /* Push the button to the right edge of the flex container */
+}
+
+.table-container {
+  display: flex;
+  justify-content: flex-end; /* Align content to the right within the container */
+  align-items: center;
+  margin-right: 100px; /* Set the distance from the right */
+  height: 75vh; /* Adjust this value as needed */
+}
