@@ -91,3 +91,16 @@
 .to-top-btn:hover {
   opacity: 0.8;
 }
+
+.flex-container {
+  display: flex;
+}
+
+.flex-child {
+  flex: 1;
+  border: 2px solid yellow;
+}  
+
+.flex-child:first-child {
+  margin-right: 20px;
+}

@@ -14,12 +14,21 @@ function App() {
         DASHBOARD
       </h1>
       <div className="left-container"> {/* Container to center the button */}
-        <button className="custom-button text-white font-bold py-2 px-4 rounded-full">
-          Invest
-        </button>
+          <button className="custom-button text-white font-bold py-2 px-4 rounded-full">
+            Invest
+          </button>
       </div>
-      <img
-      
+      <div className="right-container"> {/* Container to position the pie graph */}
+          <img src={process.env.PUBLIC_URL + '/piegraph.png'} alt="Pie Graph" className="w-30 h-30"/>
+      </div>
+      <div class="flex-container">
+        <div class="flex-child magenta">
+          Flex Column 1
+        </div>
+        <div class="flex-child green">
+          Flex Column 2
+        </div>
+        </div>
       <Table />
       {/* Hero Section */}
       <div className="fintech-color text-white py-20 px-4">
