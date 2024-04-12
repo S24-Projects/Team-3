@@ -10,11 +10,15 @@ function App() {
     <Router>
       <NavBar />
       <ToTopButton />
+      <h1>
+        DASHBOARD
+      </h1>
       <div className="left-container"> {/* Container to center the button */}
         <button className="custom-button text-white font-bold py-2 px-4 rounded-full">
           Invest
         </button>
       </div>
+      <img
       
       <Table />
       {/* Hero Section */}
