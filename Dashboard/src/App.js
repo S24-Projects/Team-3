@@ -10,26 +10,27 @@ function App() {
     <Router>
       <NavBar />
       <ToTopButton />
-      <h1>
-        DASHBOARD
-      </h1>
-      <div className="left-container"> {/* Container to center the button */}
-          <button className="custom-button text-white font-bold py-2 px-4 rounded-full">
+      
+      <div className="three-columns-container"> 
+        <div className="first-column">
+          <h1>
+            DASHBOARD
+          </h1>
+          <button className="custom-button text-white font-bold py-2 px-4 rounded-full" style={{ marginLeft: '60px', marginTop: '270px' }}>
             Invest
           </button>
+        </div>
+
+        <div className="mid-column"><Table /></div>
+
+        <div className="end-column">
+          <h1>
+            PORTFOLIO
+          </h1>
+          <img src={process.env.PUBLIC_URL + '/piegraph.png'} alt="Pie Graph" className="w-30 h-30"  style={{ marginRight: '20px', marginTop: '90px' }}/>
+        </div>
       </div>
-      <div className="right-container"> {/* Container to position the pie graph */}
-          <img src={process.env.PUBLIC_URL + '/piegraph.png'} alt="Pie Graph" className="w-30 h-30"/>
-      </div>
-      <div class="flex-container">
-        <div class="flex-child magenta">
-          Flex Column 1
-        </div>
-        <div class="flex-child green">
-          Flex Column 2
-        </div>
-        </div>
-      <Table />
+      
       {/* Hero Section */}
       <div className="fintech-color text-white py-20 px-4">
           <div className="max-w-4xl mx-auto text-center">

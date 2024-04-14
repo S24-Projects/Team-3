@@ -92,15 +92,23 @@
   opacity: 0.8;
 }
 
-.flex-container {
-  display: flex;
+.three-columns-container {
+  display: flex; /* Use flexbox */
 }
 
-.flex-child {
-  flex: 1;
-  border: 2px solid yellow;
-}  
+.first-column {
+  flex: 1; /* Each column occupies equal space */
+  
+  padding: 20px; /* Add padding to each column */
+  border: 1px solid #ccc; /* Add border for visibility */
+}
 
-.flex-child:first-child {
-  margin-right: 20px;
+.mid-column {
+  flex: 3; /* Each column occupies equal space */
+  padding: 20px; /* Add padding to each column */
+}
+
+.end-column {
+  flex: 1; /* Each column occupies equal space */
+  padding: 20px; /* Add padding to each column */
 }
