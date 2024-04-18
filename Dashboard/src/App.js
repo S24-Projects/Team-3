@@ -13,9 +13,11 @@ function App() {
       
       <div className="three-columns-container"> 
         <div className="first-column">
-          <h1>
-            DASHBOARD
-          </h1>
+          <div>
+            <h1 className="text-3xl font-semibold mt-35">
+              DASHBOARD
+            </h1>
+          </div>
           <button className="custom-button text-white font-bold py-2 px-4 rounded-full" style={{ marginLeft: '60px', marginTop: '270px' }}>
             Invest
           </button>
@@ -24,7 +26,7 @@ function App() {
         <div className="mid-column"><Table /></div>
 
         <div className="end-column">
-          <h1>
+          <h1 className="text-3xl font-semibold mt-35">
             PORTFOLIO
           </h1>
           <img src={process.env.PUBLIC_URL + '/piegraph.png'} alt="Pie Graph" className="w-30 h-30"  style={{ marginRight: '20px', marginTop: '90px' }}/>

@@ -100,7 +100,7 @@
   flex: 1; /* Each column occupies equal space */
   
   padding: 20px; /* Add padding to each column */
-  border: 1px solid #ccc; /* Add border for visibility */
+  /*border: 1px solid #ccc; Add border for visibility */
 }
 
 .mid-column {
