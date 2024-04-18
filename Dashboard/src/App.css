@@ -67,6 +67,7 @@
   justify-content: flex-end; /* Align content to the right within the container */
   align-items: center;
   margin-right: 100px; /* Set the distance from the right */
+  margin-top: 15px;
   height: 75vh; /* Adjust this value as needed */
 }
 
@@ -94,21 +95,33 @@
 
 .three-columns-container {
   display: flex; /* Use flexbox */
+  border: 1px solid #ccc; 
 }
 
 .first-column {
-  flex: 1; /* Each column occupies equal space */
-  
+  flex: 2; /* Each column occupies equal space */
   padding: 20px; /* Add padding to each column */
   /*border: 1px solid #ccc; Add border for visibility */
+  border: 1px solid #ccc; 
+}
+
+.text-box {
+  flex: 1; /* Each column occupies equal space */
+  padding: 10px; /* Add padding to each column */
+  margin-top: 150px;
+  margin-right: 28px;
+  /*border: 1px solid #ccc; Add border for visibility */
+  border: 1px solid #ccc; 
 }
 
 .mid-column {
-  flex: 3; /* Each column occupies equal space */
+  flex: 6; /* Each column occupies equal space */
   padding: 20px; /* Add padding to each column */
 }
 
 .end-column {
-  flex: 1; /* Each column occupies equal space */
+  flex: 2; /* Each column occupies equal space */
   padding: 20px; /* Add padding to each column */
+  margin-left: 10px;
+  border: 1px solid #ccc; 
 }

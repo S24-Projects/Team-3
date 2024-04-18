@@ -18,16 +18,35 @@ function App() {
               DASHBOARD
             </h1>
           </div>
-          <button className="custom-button text-white font-bold py-2 px-4 rounded-full" style={{ marginLeft: '60px', marginTop: '270px' }}>
-            Invest
-          </button>
+          <div className="text-box">
+            <h1 className="text-xl font-bold mt-0">
+              Portfolios
+            </h1>
+            <h2 className="text-lg font-semibold mt-4">Technology Portfolio</h2>
+            <p className="text-base mt-2">Investment Value: $10,000</p>
+            <p className="text-base">Growth Rate: 15%</p>
+            
+            <h2 className="text-lg font-semibold mt-4">Finance Portfolio</h2>
+            <p className="text-base mt-2">Investment Value: $7,500</p>
+            <p className="text-base">Growth Rate: 10%</p>
+            <button className="custom-button text-white font-bold py-2 px-4 rounded-full" style={{ marginLeft: '60px', marginTop: '70px' }}>
+              Invest
+            </button>
+          </div>
+
+          
         </div>
 
-        <div className="mid-column"><Table /></div>
+        <div className="mid-column">
+          <h1 className="text-3xl font-semibold mt-45 ml-20">
+            PORTFOLIO BREAKDOWN
+          </h1>
+          <Table />
+        </div>
 
         <div className="end-column">
           <h1 className="text-3xl font-semibold mt-35">
-            PORTFOLIO
+            VISUALIZATION
           </h1>
           <img src={process.env.PUBLIC_URL + '/piegraph.png'} alt="Pie Graph" className="w-30 h-30"  style={{ marginRight: '20px', marginTop: '90px' }}/>
         </div>
